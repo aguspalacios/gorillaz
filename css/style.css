@@ -1,0 +1,201 @@
+body{
+    margin:0;
+    background-color: #F7F4EF;
+}
+
+
+/*Header y nav*/
+#encabezado{
+    background-color: black;
+    height: 50px;
+    padding:10px;
+    color:white;
+}
+
+.logo{
+    margin:0;
+    padding:0;
+    float:left;
+    padding-right:28px;
+    padding-left:8px;
+}
+
+nav{
+    margin:3px;
+    padding-top:12px;
+    float: left;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left:0; 
+}
+
+nav ul li{
+    padding-right:10px;
+    display: inline;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color:#E1709B
+}
+
+
+
+/*Main*/
+main{
+    margin:40px;
+}
+
+h2{
+    padding-left:40px;
+    font-family: Arial;
+}
+
+#integrantes h2{
+    margin-bottom:30px;
+}
+
+.box{
+    height:320px;
+    width:800px;
+    margin: auto;
+    padding: 150px; 
+    margin-bottom:80px;
+}
+
+.vocalista{
+    background-color: #E1709B;
+}
+
+.bajista{
+    background-color: #329ECC;
+}
+
+.imagen-integrante{
+    float: left;
+    margin-left:135px;
+}
+
+.biografía{
+    margin:0;
+    margin-left:15px;
+    padding:0;
+    width:300px;
+    float:left;
+    color: white;
+    text-align: justify;
+    font-size: 19px;
+}
+
+
+/*discografía*/
+#discografía{
+    margin-top:60px;
+}
+
+.disco{
+    margin:30px;
+    margin-left:50px;
+    height:415px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#discografía img{
+    margin:20px;
+    margin-left:30px;
+    padding:0;
+    float:left;
+}
+
+.descripcióndisco{
+    margin-top:80px;
+}
+
+.disco p{
+    margin:0;
+    margin-left:100px;
+    margin-bottom:20px;
+    padding:0;
+    width: 580px;
+    float:left;
+    text-align:justify;
+    font-size:15px;
+}
+
+.cita{
+    font-style: italic;
+    margin:0;
+}
+
+.disco p span{
+    font-style: normal;
+    font-weight: bold;
+    font-size:14px;
+}
+
+
+
+/*aside*/
+aside{
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:50px;
+    border: 2px solid #E1709B;
+    padding: 20px;
+    width: 80%;
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+aside h2{
+    margin-bottom:8px;
+    font-size:16px;
+}
+
+aside ul{
+    margin-top:0;
+    margin-left:30px;
+}
+
+aside ul li{
+    line-height: 30px;
+}
+
+aside ul li a{
+    text-decoration-line: none;
+    font-size:14px;
+    color: rgba(0, 0, 0, 0.87)
+
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(36, 36, 36);
+    height: 70px;
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+
+footer p{
+    margin:0;
+    padding:0;
+    padding-top:20px;
+}
+
+#flecha{
+    margin:0;
+    padding:0;
+    float:right;
+}
+
+
